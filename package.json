@@ -1,0 +1,13 @@
+{
+  "name": "task-api-sdk",
+  "version": "1.0.0",
+  "description": "TypeScript SDK client for the Task Management API (generated from openapi.yaml)",
+  "type": "module",
+  "scripts": {
+    "generate": "openapi-ts -i openapi.yaml -o src/client -c @hey-api/client-fetch"
+  },
+  "devDependencies": {
+    "@hey-api/openapi-ts": "latest",
+    "typescript": "^5"
+  }
+}
